@@ -1,0 +1,14 @@
+@media screen and (max-width: 330px) {
+
+header h2{color: #181818; font-size: 25px;}
+
+#contacto{height: 250px; }
+#contacto section article .logo{max-height: 50px; height: 50px;}
+#contacto section article .textologo{ max-height: 50px; height: 50px;}
+
+
+#contacto section article a{color: #000; font: 12px Verdana, sans-serif;}
+#contacto section article div p{color: #000; font: 12px Verdana, sans-serif; }
+
+
+}
