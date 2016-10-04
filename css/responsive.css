@@ -1,14 +1,52 @@
-@media screen and (max-width: 330px) {
+@media screen  and (max-width: 360px) {
 
 header h2{color: #181818; font-size: 25px;}
+header section{padding-top: 30px; }
 
 #contacto{height: 250px; }
 #contacto section article .logo{max-height: 50px; height: 50px;}
 #contacto section article .textologo{ max-height: 50px; height: 50px;}
-
-
 #contacto section article a{color: #000; font: 12px Verdana, sans-serif;}
 #contacto section article div p{color: #000; font: 12px Verdana, sans-serif; }
+#informacion {min-height: 200px;}
+#informacion section p{font: 15px "quicksandbook", Verdana;}
+#mapaDir{height: 300px;}
+#mapaDir section{height: 70px;}
+#mapaDir section h2{font: 20px "sansationbold",Verdana;}
+#mapaDir section h3{font: 15px "quicksandbook",Verdana;}
+footer p {font: 13px "sansation_lightregular", Verdana;}
+footer p b{font-size: 15px;}
+}
+/*****************/
 
+@media screen  and (min-width: 430px) {	
+#contacto section article div p{font: 18px Verdana, sans-serif;}
+}
+
+/*****************/
+@media screen and (min-width: 700px) {
+	header section{width: 60%; text-align: center; }
+	header #btnContactanos{padding: 30px 0px 30px; width: 40%; height: 30px; display: block;float: right; text-align: center;}
+	header #btnContactanos p{font: 25px "sansation_lightregular", Verdana; color: rgb(255, 18, 18);}
+
+}
+/*****************/
+/*****************/
+@media screen and (min-width: 780px) {
+	header #btnContactanos p{font: 30px "sansation_lightregular", Verdana;}
+
+}
+/*****************/
+
+@media screen and (min-width: 1000px){
+	#Contenedor{width: 80%; margin: auto;
+		-webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+		box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);}
+
+		/*#informacion section{padding: 1%; background-color: pink; width: 60%; display: inline-block;}
+		#informacion section p{background: red; }
+		#informacion #champaña{display: block; float: right; background-color: blue; margin: 20px 20px 0px;}
+		#informacion #champaña img{width: 100px;height: 100px;}*/
 
 }
