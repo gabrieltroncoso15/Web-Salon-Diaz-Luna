@@ -33,16 +33,14 @@ header h2{ color: #181818; font:lighter 40px "blackchanceryregular",Verdana, san
 	100%{ margin-left: -300%; }
 }
 
+#informacion #contenidoinfo {width: 90%; height: 200px; }
+
 #informacion{width: 100%; min-height: 270px; background-color: #F0F0F0;}
-
 #informacion article{width: 100px;height: 100px;border: 1px solid #000; float: left; }
-
-
-
-/*#informacion section{padding: 10%;}
+#informacion section{padding: 10%;}
 #informacion section p{text-align: justify; font: 18px "quicksandbook";}
 #informacion section #centradoInfo{text-align: center;}
-*/
+
 #informacion #champaña{display: none;}
 
 #mapaDir{background: url("../img/GogMap_1.png")no-repeat center; width: 100%; height: 400px;position: relative;}

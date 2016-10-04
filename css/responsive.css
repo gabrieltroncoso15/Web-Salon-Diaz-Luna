@@ -10,6 +10,10 @@ header section{padding-top: 30px; }
 #contacto section article div p{color: #000; font: 12px Verdana, sans-serif; }
 #informacion {min-height: 200px;}
 #informacion section p{font: 15px "quicksandbook", Verdana;}
+
+
+#informacion #contenidoinfo {width: 90%; height: 200px; padding-bottom: 20px; }
+
 #mapaDir{height: 300px;}
 #mapaDir section{height: 70px;}
 #mapaDir section h2{font: 20px "sansationbold",Verdana;}
@@ -28,6 +32,7 @@ footer p b{font-size: 15px;}
 	header section{width: 60%; text-align: center; }
 	header #btnContactanos{padding: 30px 0px 30px; width: 40%; height: 30px; display: block;float: right; text-align: center;}
 	header #btnContactanos p{font: 25px "sansation_lightregular", Verdana; color: rgb(255, 18, 18);}
+	#contacto section article div p{padding-top: 5%;}
 
 }
 /*****************/
@@ -44,9 +49,11 @@ footer p b{font-size: 15px;}
 		-moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
 		box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);}
 
-		/*#informacion section{padding: 1%; background-color: pink; width: 60%; display: inline-block;}
-		#informacion section p{background: red; }
-		#informacion #champaña{display: block; float: right; background-color: blue; margin: 20px 20px 0px;}
-		#informacion #champaña img{width: 100px;height: 100px;}*/
+		#informacion{min-height: 200px;}
+		#informacion #contenidoinfo {width: 90%; height: 150px;  padding-top: 30px; }
+	
+		#informacion section{padding: 1%; width: 60%; display: inline-block;}
+		#informacion #champaña{display: block; float: right;  margin: 20px 20px 0px;}
+		#informacion #champaña img{width: 100px;height: 100px;}
 
 }
